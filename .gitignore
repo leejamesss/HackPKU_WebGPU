@@ -1,0 +1,20 @@
+# Project dependencies
+Q1/node_modules/
+
+# Built files
+Q1/dist/
+Q1/public/build/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Environment variables
+Q1/.env.local
+Q1/.env.development.local
+Q1/.env.test.local
+Q1/.env.production.local
+
+# IDE-specific files
+.vscode/
+.idea/
