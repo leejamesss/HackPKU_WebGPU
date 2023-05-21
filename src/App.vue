@@ -1,12 +1,12 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="Welcome to Your Vue.js App" />
   <p>给JS一点中国震撼：{{ cacl() }}</p>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import {cacl} from './1'
+import { cacl } from './1'
 
 export default {
   name: 'App',

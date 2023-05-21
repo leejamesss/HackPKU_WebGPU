@@ -1,0 +1,3 @@
+[submodule "my-webgpu-torch"]
+	path = my-webgpu-torch
+	url = https://github.com/leejamesss/Hack_WebGPU

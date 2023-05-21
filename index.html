@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>LeNet Training with WebGPU</title>
+</head>
+
+<body>
+    <h1>LeNet Training with WebGPU</h1>
+    <p>Select a dataset and click the 'Train' button to start training:</p>
+    <form>
+        <label for="dataset">Dataset:</label>
+        <select id="dataset">
+            <option value="mnist">MNIST</option>
+            <option value="fashion-mnist">Fashion-MNIST</option>
+        </select>
+        <button type="submit" id="train-button">Train</button>
+    </form>
+
+    <div id="training-log"></div>
+
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>
